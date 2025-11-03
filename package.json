@@ -1,0 +1,12 @@
+{
+  "name": "skills-test-with-actions",
+  "version": "1.0.0",
+  "description": "Test repository for GitHub Actions",
+  "scripts": {
+    "test": "remark . --use remark-preset-lint-consistent --frail"
+  },
+  "devDependencies": {
+    "remark-cli": "^11.0.0",
+    "remark-preset-lint-consistent": "^5.1.2"
+  }
+}
