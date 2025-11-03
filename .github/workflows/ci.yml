@@ -23,5 +23,5 @@ jobs:
           npx remark . --use remark-preset-lint-consistent --report vfile-reporter-json 2> remark-lint-report.json
       - uses: actions/upload-artifact@v4
         with:
-          name: remark-lint-report
+          name: remark-lint-report-${{ matrix.node-version }}
           path: remark-lint-report.json
