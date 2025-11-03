@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Test repository for GitHub Actions",
   "scripts": {
-    "test": "jest"
+    "test": "remark . --use remark-preset-lint-consistent --frail"
   },
   "devDependencies": {
-    "jest": "^29.0.0"
+    "remark-cli": "^11.0.0",
+    "remark-preset-lint-consistent": "^5.1.2"
   }
 }
