@@ -1,0 +1,11 @@
+{
+  "name": "skills-test-with-actions",
+  "version": "1.0.0",
+  "description": "Test repository for GitHub Actions",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
